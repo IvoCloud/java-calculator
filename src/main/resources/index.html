@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <div class="container">
+            <form id="form">
+                <div id="inputBox">
+                    <div id="leftOperandContainer" class="operandContainer">
+                        <label for="leftOperandBox">Left Operand</label><br/>
+                        <input type="text" id="leftOperandBox"/>
+                    </div>
+                    <div id="radioContainer">
+                        <input type="radio" id="addition" name="operation" checked="checked" value="+">
+                        <label for="addition">+ Addition</label><br/>
+
+                        <input type="radio" id="subtraction" name="operation" value="-">
+                        <label for="subtraction">- Subtraction</label><br/>
+
+                        <input type="radio" id="multiplication" name="operation" value="*">
+                        <label for="multiplication">* Multiplication</label><br/>
+
+                        <input type="radio" id="division" name="operation" value="/">
+                        <label for="division">/ Division</label><br/>
+
+                        <input type="radio" id="remainder" name="operation" value="%">
+                        <label for="remainder">% Remainder</label><br/>
+
+                    </div>
+                    <div id="rightOperandContainer" class="operandContainer">
+                        <label for="rightOperandBox">Right Operand</label><br/>
+                        <input type="text" id="rightOperandBox"/>
+                    </div>
+                </div>
+                <div id="result"></div>
+                <button id="submitBtn">Calculate</button>
+            </form>
+        </div>
+    </body>
+</html>

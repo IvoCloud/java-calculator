@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 4rem auto;
+    width: 70%;
+    height: 500px;
+    background-color: #cac8c2;
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+#inputBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+.operandContainer{
+    text-align: center;
+}
+
+#submitBtn{
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    cursor: pointer;
+    margin: 30px auto;
+    width: 20rem;
+}
+
